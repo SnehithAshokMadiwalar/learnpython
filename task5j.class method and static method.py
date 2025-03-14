@@ -12,3 +12,5 @@ class Example:
     @staticmethod
     def static_method():
         return "This is a static method"
+print(Example.get_count())
+print(Example.static_method())
