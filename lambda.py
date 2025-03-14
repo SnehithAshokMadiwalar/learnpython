@@ -1,7 +1,6 @@
 #lambda function for sorting
-# Sorting numbers
 nums = [5, 2, 9, 1, 5, 6]
-print(sorted(nums))  # [1, 2, 5, 5, 6, 9]
+print(sorted(nums))  
      
 students = [("Alice", 25), ("Bob", 22), ("Charlie", 23)]
 print(sorted(students, key=lambda x: x[1]))  
