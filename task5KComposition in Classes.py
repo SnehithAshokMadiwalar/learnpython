@@ -7,3 +7,5 @@ class Car:
       self.engine = Engine()
   def start(self):
       return self.engine.start()
+car = Car()
+print(car.start())
